@@ -1,0 +1,31 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SilantevR/ajs_homework_task2.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "craft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilantevR/ajs_homework_task2/issues"
+  },
+  "homepage": "https://github.com/SilantevR/ajs_homework_task2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1"
+  }
+}
